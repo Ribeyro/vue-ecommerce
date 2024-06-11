@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import Contador from "./examples/ContadorComposition.vue";
+import productList from "./examples/ProductList.vue";
 
-const app = createApp(Contador);
+const app = createApp(productList);
 
 app.mount('#app')
